@@ -1,7 +1,12 @@
-/*#### COLORS ########*/
+/*####  ########*/
 
 body {
-  background-color: black;
+  font-family: 'Oxygen', sans-serif;
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
+}
+.bubbles {
+  max-width: 900px;
+  background-color: steelblue;
+  border-radius: 15px;
 }
