@@ -6,15 +6,16 @@ body {
   justify-content: center;
   background-image: url("img/community_center.jpg");
   background-attachment: fixed;
-  background-size: 100%;
-  background-repeat: no-repeat;
+  /*background-size: 100%;
+  background-repeat: no-repeat;*/   /*needs to go inside media query*/
 }
 .bubbles {
   max-width: 900px;
-  background-color: steelblue;
+  background-color: #5889D6;
   border-radius: 15px;
   margin-top: 20%;
   margin-bottom: 30%;
+  opacity: 0.85;
 }
 #heading {
   display: flex;
@@ -23,4 +24,6 @@ body {
 #nav {
   display: flex;
   justify-content: space-around;
+  background-color: #B8AD8F;
+  opacity: 0.85;
 }
