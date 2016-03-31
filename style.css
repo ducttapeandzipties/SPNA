@@ -22,6 +22,13 @@ body {
   flex-direction: column;
   
 }
+.bubbles img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
 #logo {
   display: flex;
   justify-content: center;
@@ -32,14 +39,22 @@ body {
   background-color: #B8AD8F;
   opacity: 0.85;
 }
-#calander {
-  width: 90%;
+#photos img {
+  display: inline;
+  float:left;
+  padding: 3%;
+  width: 25%;
+  height: auto;
 }
-
-
 
 @media screen and (min-width: 950px) {
   body {
     background-size: 100%;
   }
 }
+@media screen and (max-width: 700px) {
+  #photos img {
+    width: 100%;
+  }
+}
+
