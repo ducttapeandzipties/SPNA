@@ -3,10 +3,22 @@
 body {
   font-family: 'Oxygen', sans-serif;
   display: flex;
-  align-items: center;
+  justify-content: center;
+  background-image: url("img/community_center.jpg");
+  background-attachment: fixed;
 }
 .bubbles {
   max-width: 900px;
   background-color: steelblue;
   border-radius: 15px;
+  margin-top: 10%;
+  margin-bottom: 20%;
+}
+#heading {
+  display: flex;
+  justify-content: center;
+}
+#nav {
+  display: flex;
+  justify-content: space-around;
 }
